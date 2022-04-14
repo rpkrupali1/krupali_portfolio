@@ -4,12 +4,12 @@ import AboutMe from "../AboutMe";
 
 const Header = () => {
   return (
-    <div className="jumbotron">
-      <nav className="navbar navbar-expand-lg fixed-top">
+    <header className="">
+      <nav className="navbar navbar-expand-md">
         <a className="navbar-brand" href="/">
           Krupali
         </a>
-        <button
+        {/* <button
           className="navbar-toggler"
           type="button"
           data-toggle="collapse"
@@ -19,16 +19,16 @@ const Header = () => {
           aria-label="Toggle navigation"
         >
           <span class="navbar-toggler-icon"></span>
-        </button>
+        </button> */}
         <Navigation />
       </nav>
 
-      <div className="jumbotron">
+      <div className="jumbotron pt-6">
         <h1></h1>
       </div>
 
-      < AboutMe />
-    </div>
+      <AboutMe />
+    </header>
   );
 };
 
