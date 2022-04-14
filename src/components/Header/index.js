@@ -1,13 +1,27 @@
-import React from "react";
+import React, { useState } from "react";
 import Navigation from "../Navigation";
 import AboutMe from "../AboutMe";
+import Portfolio from "../Portfolio";
 
 const Header = () => {
+  const [currentPage, setCurrentPage] = useState("AboutMe");
+  const renderPage = () => {
+    switch (currentPage) {
+      default:
+      case "AboutMe":
+        return <AboutMe />;
+      case "Portfolio":
+        return <Portfolio />;
+    }
+  };
+
+  const handlePageChange = (page) => setCurrentPage(page);
+
   return (
     <header className="">
       <nav className="navbar navbar-expand-md">
         <a className="navbar-brand" href="/">
-          Krupali
+          Krupali Pilgulwar
         </a>
         {/* <button
           className="navbar-toggler"
@@ -20,14 +34,16 @@ const Header = () => {
         >
           <span class="navbar-toggler-icon"></span>
         </button> */}
-        <Navigation />
+        <Navigation
+          currentPage={currentPage}
+          handlePageChange={handlePageChange}
+        />
       </nav>
+      {renderPage()}
 
       <div className="jumbotron pt-6">
         <h1></h1>
       </div>
-
-      <AboutMe />
     </header>
   );
 };
