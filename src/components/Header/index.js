@@ -2,6 +2,8 @@ import React, { useState } from "react";
 import Navigation from "../Navigation";
 import AboutMe from "../AboutMe";
 import Portfolio from "../Portfolio";
+import Contact from "../Contact";
+import Resume from "../Resume";
 
 const Header = () => {
   const [currentPage, setCurrentPage] = useState("AboutMe");
@@ -12,6 +14,10 @@ const Header = () => {
         return <AboutMe />;
       case "Portfolio":
         return <Portfolio />;
+      case "Contact":
+        return <Contact />;
+      case "Resume":
+        return <Resume />;
     }
   };
 
