@@ -1,9 +1,15 @@
 import React from "react";
-
+import { AiFillGithub } from "react-icons/ai";
 
 const Footer = () => {
+  const style = {
+    backgroundColor: "#f1f1f1",
+    position: "fixed",
+    bottom: "0",
+    width: "100%",
+  };
   return (
-    <footer className="text-center" style={{ backgroundColor: "#f1f1f1" }}>
+    <footer className="text-center mt-auto" style={style}>
       <div className="container pt-4">
         <section className="mb-4">
           <a
@@ -23,7 +29,7 @@ const Footer = () => {
             target="_blank"
             rel="noreferrer noopener"
           >
-            <svg xmlns="http://www.w3.org/2000/svg" className="bi bi-github" fill="currentColor"/>
+            <AiFillGithub />
             <span>Github</span>
           </a>
         </section>
