@@ -24,12 +24,12 @@ const Header = () => {
   const handlePageChange = (page) => setCurrentPage(page);
 
   return (
-    <header className="">
-      <nav className="navbar navbar-expand-md">
-        <a className="navbar-brand" href="/">
+    <header className="mb-3 ">
+      <nav className="navbar navbar-expand-md flex-row justify-space-between align-center">
+        <a className="navbar-brand display-1" href="/">
           Krupali Pilgulwar
         </a>
-        {/* <button
+        <button
           className="navbar-toggler"
           type="button"
           data-toggle="collapse"
@@ -39,7 +39,7 @@ const Header = () => {
           aria-label="Toggle navigation"
         >
           <span class="navbar-toggler-icon"></span>
-        </button> */}
+        </button>
         <Navigation
           currentPage={currentPage}
           handlePageChange={handlePageChange}

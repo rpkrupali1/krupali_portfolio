@@ -16,11 +16,10 @@ code {
   background-image: url(./assets/background.jpg);
   background-repeat: no-repeat;
   background-size: cover;
+  min-height: 200px;
 }
 
 .jumbotron {
   background: none;
   /* background-image: url(https://placebear.com/g/900/300); */
-
 }
-
