@@ -57,7 +57,9 @@ const Portfolio = () => {
     <div className="row text-center">
       <div className="header-image col"></div>
       <div className="col-8">
-        <h1 className="fw-bold">Portfolio</h1>
+        <div className="text-center my-2">
+          <h2 className="fw-bold">Portfolio</h2>
+        </div>
         <div className="container">
           <div className="row">
             {projects.map((project) => (

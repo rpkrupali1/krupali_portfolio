@@ -48,56 +48,62 @@ const Contact = () => {
   };
 
   return (
-    <div className="p-3 col-12 col-lg-8 mb-3">
-      <h1>Contact</h1>
-      <form className="mx-4" id="contact-form" onSubmit={handleSubmit}>
-        <div className="form-container">
-          <div className="mb-2 form-group">
-            <label htmlFor="name" className="mb-2">
-              Name:
-            </label>
-            <input
-              type="text"
-              name="name"
-              className={formControlClass.valid}
-              defaultValue={name}
-              onBlur={handleChange}
-            />
-          </div>
-          <div className="mb-2 form-group">
-            <label htmlFor="email" className="mb-2">
-              Email address:
-            </label>
-            <input
-              type="email"
-              name="email"
-              className={formControlClass.valid}
-              defaultValue={email}
-              onBlur={handleChange}
-            />
-          </div>
-          <div className="mb-2 form-group">
-            <label htmlFor="message" className="mb-2">
-              Message:
-            </label>
-            <textarea
-              name="message"
-              rows="5"
-              className={formControlClass.valid}
-              defaultValue={message}
-              onBlur={handleChange}
-            />
-          </div>
-          {errorMessage && (
-            <div>
-              <p className="form-text mb-2">{errorMessage}</p>
-            </div>
-          )}
-          <button type="submit" className="my-2">
-            Submit
-          </button>
+    <div className="mb-3 row">
+      <div className="header-image col"></div>
+      <div className="col-8">
+        <div className="text-center my-2">
+          <h2 className="fw-bold">Contact</h2>
         </div>
-      </form>
+        <form className="mx-4" id="contact-form" onSubmit={handleSubmit}>
+          <div className="form-container">
+            <div className="mb-2 form-group">
+              <label htmlFor="name" className="mb-2">
+                Name:
+              </label>
+              <input
+                type="text"
+                name="name"
+                className={formControlClass.valid}
+                defaultValue={name}
+                onBlur={handleChange}
+              />
+            </div>
+            <div className="mb-2 form-group">
+              <label htmlFor="email" className="mb-2">
+                Email address:
+              </label>
+              <input
+                type="email"
+                name="email"
+                className={formControlClass.valid}
+                defaultValue={email}
+                onBlur={handleChange}
+              />
+            </div>
+            <div className="mb-2 form-group">
+              <label htmlFor="message" className="mb-2">
+                Message:
+              </label>
+              <textarea
+                name="message"
+                rows="5"
+                className={formControlClass.valid}
+                defaultValue={message}
+                onBlur={handleChange}
+              />
+            </div>
+            {errorMessage && (
+              <div>
+                <p className="form-text mb-2">{errorMessage}</p>
+              </div>
+            )}
+            <button type="submit" className="my-2 button h3 px-3 mx-auto">
+              Submit
+            </button>
+          </div>
+        </form>
+      </div>
+      <div className="header-image col vh-100"></div>
     </div>
   );
 };

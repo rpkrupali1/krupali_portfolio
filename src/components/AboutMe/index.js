@@ -42,7 +42,7 @@ const AboutMe = () => {
           <h2 className="fw-bold">Certificates</h2>
         </div>
       </div>
-      <div className="header-image col"></div>
+      <div className="header-image col vh-100"></div>
     </div>
   );
 };

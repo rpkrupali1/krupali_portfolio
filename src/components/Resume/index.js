@@ -45,24 +45,35 @@ const skills = [
 
 const Resume = () => {
   return (
-    <div>
-      <h1>Resume</h1>
-      <div className="container">
-        <div>
-          <button>Download My Resume</button>
+    <div className="row">
+      <div className="header-image col"></div>
+      <div className="col-8">
+        <div className="text-center my-2">
+          <h2 className="fw-bold">Resume</h2>
         </div>
-        <div>
-          <h3>Technical Skills</h3>
-          <div className="container">
-            {skills.map((skill) => (
-              <div className="row">
-                <div className="col">{skill.name}</div>
-                <div className="col">{skill.technologies}</div>
-              </div>
-            ))}
+        <div className="container">
+          <div className="text-center my-2">
+            <button className="button h3 m-4 p-4">Download My Resume</button>
+          </div>
+          <div>
+            <h3 className="text-center fw-bold mb-4">Technical Skills</h3>
+            <div className="container">
+              {skills.map((skill) => (
+                <div>
+                  <div className="row justify-content-center mb-3 mx-auto">
+                    <div className="col-2 fw-bold">{skill.name}</div>
+                    <div className="col">{skill.technologies}</div>
+                  </div>
+                  <div className="row">
+                    <div className="col skills mx-auto mb-3" />
+                  </div>
+                </div>
+              ))}
+            </div>
           </div>
         </div>
       </div>
+      <div className="header-image col"></div>
     </div>
   );
 };

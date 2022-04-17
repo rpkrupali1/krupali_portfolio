@@ -1,5 +1,10 @@
 import React from "react";
-import { AiFillGithub, AiFillLinkedin } from "react-icons/ai";
+import {
+  AiFillGithub,
+  AiFillLinkedin,
+  AiOutlineMail,
+  AiFillTwitterCircle,
+} from "react-icons/ai";
 
 const Footer = () => {
   const style = {
@@ -29,6 +34,24 @@ const Footer = () => {
             rel="noreferrer noopener"
           >
             <AiFillGithub />
+          </a>
+          <a
+            className="btn btn-link btn-floating btn-lg text-dark m-1"
+            href="mailto:rpkrupali@gmail.com"
+            role="button"
+            target="_blank"
+            rel="noreferrer noopener"
+          >
+            <AiOutlineMail />
+          </a>
+          <a
+            className="btn btn-link btn-floating btn-lg text-dark m-1"
+            href="https://twitter.com/rpkrupali"
+            role="button"
+            target="_blank"
+            rel="noreferrer noopener"
+          >
+            <AiFillTwitterCircle />
           </a>
         </section>
       </div>
