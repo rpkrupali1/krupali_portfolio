@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/krupali_portfolio/static/css/main.3443f9b4.css",
+    "main.js": "/krupali_portfolio/static/js/main.b8824ed5.js",
+    "static/js/787.fc421448.chunk.js": "/krupali_portfolio/static/js/787.fc421448.chunk.js",
+    "static/media/Profile.JPG": "/krupali_portfolio/static/media/Profile.75cd252dfc68002c30cb.JPG",
+    "static/media/KitchenAroundYou.PNG": "/krupali_portfolio/static/media/KitchenAroundYou.7d61c2eb30146c1245b5.PNG",
+    "static/media/PhotoPort.PNG": "/krupali_portfolio/static/media/PhotoPort.e1fbcb0cdadd2b503fff.PNG",
+    "static/media/hero.jpg": "/krupali_portfolio/static/media/hero.729bd406a3f9ff7a9b59.jpg",
+    "static/media/News4You.PNG": "/krupali_portfolio/static/media/News4You.3243d230032ad58f0832.PNG",
+    "static/media/PizzaHunt.PNG": "/krupali_portfolio/static/media/PizzaHunt.ba3cfc23fc4d3c18cf09.PNG",
+    "static/media/RunBuddy.JPG": "/krupali_portfolio/static/media/RunBuddy.914af5729e1078237f81.JPG",
+    "static/media/NoteTaker.PNG": "/krupali_portfolio/static/media/NoteTaker.6b418318fefa4d9cbfb5.PNG",
+    "index.html": "/krupali_portfolio/index.html",
+    "main.3443f9b4.css.map": "/krupali_portfolio/static/css/main.3443f9b4.css.map",
+    "main.b8824ed5.js.map": "/krupali_portfolio/static/js/main.b8824ed5.js.map",
+    "787.fc421448.chunk.js.map": "/krupali_portfolio/static/js/787.fc421448.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3443f9b4.css",
+    "static/js/main.b8824ed5.js"
+  ]
+}
