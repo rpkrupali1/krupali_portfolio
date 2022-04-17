@@ -1,4 +1,5 @@
 import React from "react";
+import fileSaver from "file-saver";
 
 const skills = [
   {
@@ -44,6 +45,13 @@ const skills = [
 ];
 
 const Resume = () => {
+  const saveFile = () => {
+    fileSaver.saveAs(
+      process.env.PUBLIC_URL + "/Krupali_Pilgulwar.pdf",
+      "MyCV.pdf"
+    );
+  };
+
   return (
     <div className="row">
       <div className="header-image col"></div>
@@ -53,7 +61,9 @@ const Resume = () => {
         </div>
         <div className="container">
           <div className="text-center my-2">
-            <button className="button h3 m-4 p-4">Download My Resume</button>
+            <button className="button h3 m-4 p-4" onClick={saveFile}>
+              Download My Resume
+            </button>
           </div>
           <div>
             <h3 className="text-center fw-bold mb-4">Technical Skills</h3>
