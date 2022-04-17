@@ -13,7 +13,6 @@ const projects = [
     techStack: "React",
     git: "https://github.com/rpkrupali1/photo-port",
     application: "http://rpkrupali1.github.io/photo-port",
-    //image: "PhotoPort.PNG",
     image: PhotoPort,
   },
   {
@@ -21,7 +20,6 @@ const projects = [
     techStack: "NoSQL-MongoDb",
     git: "https://github.com/rpkrupali1/pizza-hunt",
     application: "https://kp-pizza-hunt.herokuapp.com/add-pizza",
-    //image: "PizzaHunt.PNG",
     image: PizzaHunt,
   },
   {
@@ -29,7 +27,6 @@ const projects = [
     techStack: "Mysql2",
     git: "https://github.com/rpkrupali1/kitchen-around-you",
     application: "https://kitchen-around-you.herokuapp.com/",
-    //image: "KitchenAroundYou.PNG",
     image: KitchenAroundYou,
   },
   {
@@ -37,7 +34,6 @@ const projects = [
     techStack: "ExpressJs",
     git: "https://github.com/rpkrupali1/kp-note-taker",
     application: "https://note-taker-kp-challenge.herokuapp.com/",
-    //image: "NoteTaker.PNG",
     image: NoteTaker,
   },
   {
@@ -45,7 +41,6 @@ const projects = [
     techStack: "JS/Server side APIs",
     git: "https://github.com/rpkrupali1/News4U",
     application: "https://rpkrupali1.github.io/News4U/",
-    //image: "News4You.PNG",
     image: News4You,
   },
   {
@@ -53,7 +48,6 @@ const projects = [
     techStack: "HTML/CSS",
     git: "https://github.com/rpkrupali1/run-buddy",
     application: "https://rpkrupali1.github.io/run-buddy/",
-    //image: "RunBuddy.JPG",
     image: RunBuddy,
   },
 ];

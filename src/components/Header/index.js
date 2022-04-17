@@ -24,10 +24,11 @@ const Header = () => {
   const handlePageChange = (page) => setCurrentPage(page);
 
   return (
-    <header className="mb-3 ">
-      <nav className="navbar navbar-expand-md flex-row justify-space-between align-center">
-        <a className="navbar-brand display-1" href="/">
-          Krupali Pilgulwar
+    <header className="">
+      {/* <div className="header-image"></div> */}
+      <nav className="navbar navbar-expand-md">
+        <a className="navbar-brand" href="/">
+          <span className="h1 fw-bold mx-4 no-list-style">Krupali Pilgulwar</span>
         </a>
         <button
           className="navbar-toggler"
@@ -46,10 +47,6 @@ const Header = () => {
         />
       </nav>
       {renderPage()}
-
-      <div className="jumbotron pt-6">
-        <h1></h1>
-      </div>
     </header>
   );
 };

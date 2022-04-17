@@ -7,8 +7,8 @@ const Navigation = ({ currentPage, handlePageChange }) => {
 
   return (
     <div className="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul className="navbar-nav m-auto">
-        <li class="nav-item">
+      <ul className="navbar-nav m-auto nav-elements">
+        <li class="nav-item mx-2">
           <a
             className={
               (currentPage === "AboutMe" ? "nav-link active" : "nav-link")
@@ -19,7 +19,7 @@ const Navigation = ({ currentPage, handlePageChange }) => {
             About me
           </a>
         </li>
-        <li className="nav-item">
+        <li className="nav-item mx-2">
           <a
             className={
               (currentPage === "Portfolio" ? "nav-link active" : "nav-link")
@@ -30,7 +30,7 @@ const Navigation = ({ currentPage, handlePageChange }) => {
             Portfolio
           </a>
         </li>
-        <li className="nav-item">
+        <li className="nav-item mx-2">
           <a
             className={
               (currentPage === "Contact" ? "nav-link active" : "nav-link")
@@ -41,7 +41,7 @@ const Navigation = ({ currentPage, handlePageChange }) => {
             Contact
           </a>
         </li>
-        <li className="nav-item">
+        <li className="nav-item mx-2">
           <a
             className={
               (currentPage === "Resume" ? "nav-link active" : "nav-link")
