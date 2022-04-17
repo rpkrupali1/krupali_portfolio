@@ -71,7 +71,7 @@ const Resume = () => {
               {skills.map((skill) => (
                 <div>
                   <div className="row justify-content-center mb-3 mx-auto">
-                    <div className="col-2 fw-bold">{skill.name}</div>
+                    <div className="col-2 col-md-auto fw-bold">{skill.name} :</div>
                     <div className="col">{skill.technologies}</div>
                   </div>
                   <div className="row">
