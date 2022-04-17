@@ -1,16 +1,18 @@
 import React from "react";
+import { AiFillGithub } from "react-icons/ai";
+
 
 const Project = ({ name, techStack, git, image }) => {
   return (
     <div
-      className="col-12 col-md-6 m-2 blur"
+      className="col-12 m-2 projects-section"
       style={{ backgroundImage: `url(${image})` }}
     >
-      <div className="projects-section" >
+      <div className="project-headers" >
         <h3>{name}</h3>
         <h4>{techStack}</h4>
         <a href={git} target="_blank" rel="noreferrer">
-          {git}
+          <AiFillGithub size={50} />
         </a>
       </div>
     </div>

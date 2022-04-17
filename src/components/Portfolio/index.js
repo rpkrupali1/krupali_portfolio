@@ -54,21 +54,25 @@ const projects = [
 
 const Portfolio = () => {
   return (
-    <div>
-      <h1>Portfolio</h1>
-      <div className="container">
-        <div className="row">
-          {projects.map((project) => (
-            <Project
-              name={project.name}
-              techStack={project.techStack}
-              git={project.git}
-              image={project.image}
-            />
-          ))}
-          <Project />
+    <div className="row text-center">
+      <div className="header-image col"></div>
+      <div className="col-8">
+        <h1 className="fw-bold">Portfolio</h1>
+        <div className="container">
+          <div className="row">
+            {projects.map((project) => (
+              <Project
+                name={project.name}
+                techStack={project.techStack}
+                git={project.git}
+                image={project.image}
+              />
+            ))}
+            <Project />
+          </div>
         </div>
       </div>
+      <div className="header-image col"></div>
     </div>
   );
 };
