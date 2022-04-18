@@ -54,13 +54,18 @@ const projects = [
 
 const Portfolio = () => {
   return (
-    <div className="row text-center">
+    <div className="row">
       <div className="header-image col"></div>
       <div className="col-8">
         <div className="text-center my-2">
           <h2 className="fw-bold">Portfolio</h2>
         </div>
         <div className="container">
+          <p text-left>
+            Please find below projects with different technogies that I have
+            completed. Please click on git link to get detail information and
+            click on project link to see deployed project.
+          </p>
           <div className="row">
             {projects.map((project) => (
               <Project
