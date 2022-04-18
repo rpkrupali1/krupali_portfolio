@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/krupali_portfolio/static/css/main.3443f9b4.css",
-    "main.js": "/krupali_portfolio/static/js/main.b8824ed5.js",
+    "main.css": "/krupali_portfolio/static/css/main.2ef65e16.css",
+    "main.js": "/krupali_portfolio/static/js/main.7999d205.js",
     "static/js/787.fc421448.chunk.js": "/krupali_portfolio/static/js/787.fc421448.chunk.js",
     "static/media/Profile.JPG": "/krupali_portfolio/static/media/Profile.75cd252dfc68002c30cb.JPG",
     "static/media/KitchenAroundYou.PNG": "/krupali_portfolio/static/media/KitchenAroundYou.7d61c2eb30146c1245b5.PNG",
@@ -12,12 +12,12 @@
     "static/media/RunBuddy.JPG": "/krupali_portfolio/static/media/RunBuddy.914af5729e1078237f81.JPG",
     "static/media/NoteTaker.PNG": "/krupali_portfolio/static/media/NoteTaker.6b418318fefa4d9cbfb5.PNG",
     "index.html": "/krupali_portfolio/index.html",
-    "main.3443f9b4.css.map": "/krupali_portfolio/static/css/main.3443f9b4.css.map",
-    "main.b8824ed5.js.map": "/krupali_portfolio/static/js/main.b8824ed5.js.map",
+    "main.2ef65e16.css.map": "/krupali_portfolio/static/css/main.2ef65e16.css.map",
+    "main.7999d205.js.map": "/krupali_portfolio/static/js/main.7999d205.js.map",
     "787.fc421448.chunk.js.map": "/krupali_portfolio/static/js/787.fc421448.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.3443f9b4.css",
-    "static/js/main.b8824ed5.js"
+    "static/css/main.2ef65e16.css",
+    "static/js/main.7999d205.js"
   ]
 }
