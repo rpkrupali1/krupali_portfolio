@@ -6,7 +6,7 @@ const Navigation = ({ currentPage, handlePageChange }) => {
   });
 
   return (
-    <div className="collapse navbar-collapse" id="navbarSupportedContent">
+    <div className="collapse navbar-collapse " id="navbarSupportedContent">
       <ul className="navbar-nav m-auto nav-elements">
         <li class="nav-item mx-2">
           <a

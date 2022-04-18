@@ -66,6 +66,7 @@ const Portfolio = () => {
               <Project
                 name={project.name}
                 techStack={project.techStack}
+                application={project.application}
                 git={project.git}
                 image={project.image}
               />

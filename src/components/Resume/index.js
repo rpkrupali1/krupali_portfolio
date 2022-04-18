@@ -10,7 +10,11 @@ const skills = [
   {
     name: "Backend",
     technologies:
-      "NodeJs, C#, Java, API, MySQL, MongoDB, Express, ReactJS, Handlebars, Webpack, TypeScript",
+      "NodeJs, C#, Java, API, Express, ReactJS, Handlebars, Webpack, TypeScript",
+  },
+  {
+    name: "Database",
+    technologies: "MySQL, MongoDB, DynamoDb",
   },
   {
     name: "Test Automation Tools",
@@ -25,6 +29,10 @@ const skills = [
     name: "CICD",
     technologies:
       "CircleCI, AWS, AzureDevops/ADS/TFS, Jenkins, Github, Bitbucket",
+  },
+  {
+    name: "Deployment",
+    technologies: "Heroku, AWS, Github pages",
   },
   {
     name: "Service Virtualization",
@@ -71,7 +79,9 @@ const Resume = () => {
               {skills.map((skill) => (
                 <div>
                   <div className="row justify-content-center mb-3 mx-auto">
-                    <div className="col-2 col-md-auto fw-bold">{skill.name} :</div>
+                    <div className="col-2 col-md-auto fw-bold">
+                      {skill.name} :
+                    </div>
                     <div className="col">{skill.technologies}</div>
                   </div>
                   <div className="row">
