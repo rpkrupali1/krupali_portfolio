@@ -10,7 +10,7 @@ const Project = ({ name, techStack, application, git, image }) => {
       ></div>
       <div className="project-headers text-center">
         <h3>
-          <a href={image} alt="project_link" className="project-title">
+          <a href={application} target="_blank" alt="project_link" className="project-title" rel="noreferrer">
             {name}
           </a>
         </h3>
