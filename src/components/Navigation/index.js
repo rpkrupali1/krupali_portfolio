@@ -1,4 +1,5 @@
 import React, { useEffect } from "react";
+import { Nav, Navbar } from "react-bootstrap";
 
 const Navigation = ({ currentPage, handlePageChange }) => {
   useEffect(() => {
@@ -6,54 +7,40 @@ const Navigation = ({ currentPage, handlePageChange }) => {
   });
 
   return (
-    <div className="collapse navbar-collapse " id="navbarSupportedContent">
-      <ul className="navbar-nav m-auto nav-elements">
-        <li class="nav-item mx-2">
-          <a
-            className={
-              (currentPage === "AboutMe" ? "nav-link active" : "nav-link")
-            }
-            href="#aboutme"
-            onClick={() => handlePageChange("AboutMe")}
-          >
-            About me
-          </a>
-        </li>
-        <li className="nav-item mx-2">
-          <a
-            className={
-              (currentPage === "Portfolio" ? "nav-link active" : "nav-link")
-            }
-            href="#portfolio"
-            onClick={() => handlePageChange("Portfolio")}
-          >
-            Portfolio
-          </a>
-        </li>
-        <li className="nav-item mx-2">
-          <a
-            className={
-              (currentPage === "Contact" ? "nav-link active" : "nav-link")
-            }
-            href="#contact"
-            onClick={() => handlePageChange("Contact")}
-          >
-            Contact
-          </a>
-        </li>
-        <li className="nav-item mx-2">
-          <a
-            className={
-              (currentPage === "Resume" ? "nav-link active" : "nav-link")
-            }
-            href="#resume"
-            onClick={() => handlePageChange("Resume")}
-          >
-            Resume
-          </a>
-        </li>
-      </ul>
-    </div>
+    <Navbar.Collapse id="basic-navbar-nav" className="mx-4">
+      <Nav className="ml-auto">
+        <Nav.Link
+          className={currentPage === "AboutMe" ? "nav-link active" : "nav-link"}
+          href="#aboutme"
+          onClick={() => handlePageChange("AboutMe")}
+        >
+          About me
+        </Nav.Link>
+        <Nav.Link
+          className={
+            currentPage === "Portfolio" ? "nav-link active" : "nav-link"
+          }
+          href="#portfolio"
+          onClick={() => handlePageChange("Portfolio")}
+        >
+          Portfolio
+        </Nav.Link>
+        <Nav.Link
+          className={currentPage === "Contact" ? "nav-link active" : "nav-link"}
+          href="#contact"
+          onClick={() => handlePageChange("Contact")}
+        >
+          Contact
+        </Nav.Link>
+        <Nav.Link
+          className={currentPage === "Resume" ? "nav-link active" : "nav-link"}
+          href="#resume"
+          onClick={() => handlePageChange("Resume")}
+        >
+          Resume
+        </Nav.Link>
+      </Nav>
+    </Navbar.Collapse>
   );
 };
 

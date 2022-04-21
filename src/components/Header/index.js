@@ -4,7 +4,8 @@ import AboutMe from "../AboutMe";
 import Portfolio from "../Portfolio";
 import Contact from "../Contact";
 import Resume from "../Resume";
-import {AiOutlineMenu} from "react-icons/ai";
+import { AiOutlineMenu } from "react-icons/ai";
+import { Nav, Navbar } from "react-bootstrap";
 
 const Header = () => {
   const [currentPage, setCurrentPage] = useState("AboutMe");
@@ -27,11 +28,25 @@ const Header = () => {
   return (
     <header className="">
       {/* <div className="header-image"></div> */}
-      <nav className="navbar fixed-top navbar-expand-md">
-        <a className="navbar-brand" href="/">
-          <span className="h1 fw-bold mx-4 no-list-style">Krupali Pilgulwar</span>
-        </a>
-        <button
+      <Navbar className="navbar fixed-top navbar-expand-md" expand="lg">
+        <Navbar.Brand>
+          <a className="navbar-brand" href="/">
+            <span className="h1 fw-bold mx-4 no-list-style">
+              Krupali Pilgulwar
+            </span>
+          </a>
+        </Navbar.Brand>
+
+        <Navbar.Toggle aria-controls="basic-navbar-nav">
+          <AiOutlineMenu />
+        </Navbar.Toggle>
+
+        <Navigation
+          currentPage={currentPage}
+          handlePageChange={handlePageChange}
+        />
+
+        {/* <button
           className="navbar-toggler"
           type="button"
           data-bs-toggle="collapse"
@@ -40,14 +55,13 @@ const Header = () => {
           aria-expanded="false"
           aria-label="Toggle navigation"
         >
-          {/* <span class="navbar-toggler-icon"></span> */}
           <AiOutlineMenu />
-        </button>
-        <Navigation
+        </button> */}
+        {/* <Navigation
           currentPage={currentPage}
           handlePageChange={handlePageChange}
-        />
-      </nav>
+        /> */}
+      </Navbar>
       {renderPage()}
     </header>
   );
