@@ -39,12 +39,16 @@ const Contact = () => {
     }
     if (!errorMessage) {
       setFormState({ ...formState, [e.target.name]: e.target.value });
+      console.log('Handle Form', formState);
     }
   };
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    setErrorMessage(`${e.target.name} is required.`);
+    if (!errorMessage) {
+      console.log('Submit Form', formState);
+      //setErrorMessage(`${e.target.name} is required.`);
+    }
   };
 
   return (
