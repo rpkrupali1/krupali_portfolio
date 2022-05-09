@@ -28,17 +28,34 @@ const AboutMe = () => {
         </div>
         <div className="container text-left">
           <p>
-            I am mission-driven Software Engineer and Enterprise Quality
-            Architect with a passion for learning new things, innovation,
-            collaboration and implementation. Recently earned full stack web
-            developer with a web development certificate.
+            I am a mission-driven Full stack web developer leveraging a
+            background in Enterprise Quality Architect with a passion for
+            learning new things, innovation, collaboration, and implementation.
+            Recently earned a certificate in full stack development from MSU
+            University with newly developed skills in JavaScript, CSS, React.js
+            MERN and responsive web design.
           </p>
 
           <p>
-            I've always sought out opportunities and challenges that are
+            AWS Developer Associate Certified and over 14+ years of diversified
+            experience in analysis, design, development, and management of
+            manual/automated tests. Expertise in improving quality across
+            organizations by collaborating with delivery teams and implementing
+            overall quality standards, best practices, and continuous
+            improvement by designing and implementing automation frameworks from
+            scratch and helping organizations for cost savings.
+          </p>
+
+          <p>
+            Excellent client-facing communication skills and has led and managed
+            teams of 25-30 resources.
+          </p>
+
+          <p>
+            I have always sought out opportunities and challenges that are
             meaningful to me. Although my professional path has taken many
-            twists and turns - from manual testing to full stack development.
-            I've never stopped engaging my passion to help others and solve
+            twists and turns - from manual testing to full stack development. I
+            have never stopped engaging in my passion to help others and solve
             problems.
           </p>
 

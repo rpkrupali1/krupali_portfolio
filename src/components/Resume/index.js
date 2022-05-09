@@ -5,21 +5,16 @@ const skills = [
   {
     name: "Frontend",
     technologies:
-      "HTML5, CSS, JQuery, Javascript, Bootstrap, React, Responsive design",
+      "HTML5, CSS, JQuery, Javascript, Bootstrap, React, Responsive design, Redux",
   },
   {
     name: "Backend",
     technologies:
-      "NodeJs, C#, Java, API, Express, ReactJS, Handlebars, Webpack, TypeScript",
+      "NodeJS, C#, Java, API, Express, ReactJS, Handlebars, Webpack, JavaScript ES6+, TypeScript",
   },
   {
     name: "Database",
-    technologies: "MySQL, MongoDB, DynamoDb",
-  },
-  {
-    name: "Test Automation Tools",
-    technologies:
-      "Selenium, Cypress, CodeceptJs, Provar, Copado, Protractor, QTP/UFT, JMeter, K6",
+    technologies: "MySQL, MongoDB, DynamoDb, GraphQL",
   },
   {
     name: "CRM",
@@ -43,12 +38,38 @@ const skills = [
     technologies: "AppSpider, Snyk, SonarQube, Linting",
   },
   {
-    name: "Monitoring / Alerting/ Obeservability",
+    name: "Monitoring / Alerting/ Observability",
     technologies: "Dynatrace, AlertSite, Grafana",
   },
   {
     name: "Orchestration",
     technologies: "Docker, Kubernetes, EKS, Terraform, Rancher",
+  },
+  {
+    name: "Test Automation Tools",
+    technologies:
+      "Selenium, Cypress, CodeceptJs, Provar, Copado, Protractor, QTP/UFT, JMeter, K6",
+  },
+  {
+    name: "Test Framework",
+    technologies: "TestNG, Junit, NUnit, xUnit, Cucumber, Specflow",
+  },
+  {
+    name: "Web Service Testing",
+    technologies: "SoapUI, Postman, RestSharp, Rest Assured",
+  },
+  {
+    name: "Test Management",
+    technologies: "MTM, Zephyr, X-ray, ADS, Test Rail",
+  },
+  {
+    name: "Defect Tracking",
+    technologies: "Bugzilla, Team Foundation Server, Jira",
+  },
+  {
+    name: "Platforms",
+    technologies:
+      "C#, Java, JavaScript, Json, Ajax, VBScript, Angular, HTML, Python, XML, Groovy",
   },
 ];
 
