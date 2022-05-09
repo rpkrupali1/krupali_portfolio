@@ -56,7 +56,7 @@ const Resume = () => {
   const saveFile = () => {
     fileSaver.saveAs(
       process.env.PUBLIC_URL + "/Krupali_Pilgulwar.pdf",
-      "MyCV.pdf"
+      "KrupaliPilgulwar.pdf"
     );
   };
 

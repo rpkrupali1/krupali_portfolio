@@ -101,7 +101,7 @@ h3 {
 
 .project-headers {
   /* background-color: var(--light-green); */
-  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgb(0, 0, 0); /* Fallback color */
   background-color: rgba(99, 205, 218, 0.4); /* Black w/opacity/see-through */
   font-weight: bold;
   border: 3px solid var(--light-green);
@@ -121,14 +121,23 @@ h3 {
 .button {
   background-color: var(--charcoal);
   color: var(--light-green);
-  border-radius: 15px;
+  border-radius: 0.93rem;
   box-shadow: 0 9px var(--light-green);
 }
 
 .skills {
-  border-bottom: 6px solid gray;
+  border-bottom: 0.43rem solid gray;
 }
 
 footer {
   z-index: 9999;
+}
+
+.cert-container {
+  border: 0.25rem solid gray;
+  margin: 2px;
+}
+
+.cert-container p {
+  padding-top: 4px;
 }

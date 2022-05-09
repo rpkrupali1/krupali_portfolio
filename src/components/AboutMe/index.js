@@ -1,7 +1,17 @@
 import React from "react";
 import Profile from "../../assets/Profile.JPG";
+import awsBadge from "../../assets/aws-certified-developer-associate.png";
+import fileSaver from "file-saver";
 
 const AboutMe = () => {
+  const saveFile = () => {
+    fileSaver.saveAs(
+      process.env.PUBLIC_URL +
+        "/AWSCertifiedDeveloper-AssociateCertificate.pdf",
+      "KrupaliPilgulwar-Cert-AWS.pdf"
+    );
+  };
+
   return (
     <div className="row">
       <div className="header-image col"></div>
@@ -25,7 +35,7 @@ const AboutMe = () => {
           </p>
 
           <p>
-            I've always sought out opprtunities and challenges that are
+            I've always sought out opportunities and challenges that are
             meaningful to me. Although my professional path has taken many
             twists and turns - from manual testing to full stack development.
             I've never stopped engaging my passion to help others and solve
@@ -39,7 +49,24 @@ const AboutMe = () => {
           </p>
         </div>
         <div className="text-center">
-          <h2 className="fw-bold">Certificates</h2>
+          <h2 className="text-center fw-bold">Certificates</h2>
+          <div className="row p-2 px-4 ">
+            <div className="col-12 col-sm-5 container cert-container">
+              <p className="fw-bold">AWS Certified Developer – Associate</p>
+              <img src={awsBadge} alt="awsBadge" />{" "}
+              <button className="button m-4 p-2" onClick={saveFile}>
+                Download My Certificate
+              </button>
+            </div>
+            <div className="col-12 col-sm-5 container cert-container">
+              <p>
+                <span className="fw-bold">
+                  Full Stack Web Developer Boot Camp Certificate{" "}
+                </span>
+                From Michigan State University
+              </p>
+            </div>
+          </div>
         </div>
       </div>
       <div className="header-image col vh-100"></div>

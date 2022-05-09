@@ -62,7 +62,7 @@ const Portfolio = () => {
         </div>
         <div className="container">
           <p text-left>
-            Please find below projects with different technogies that I have
+            Please find below projects with different technologies that I have
             completed. Please click on git link to get detail information and
             click on project link to see deployed project.
           </p>
