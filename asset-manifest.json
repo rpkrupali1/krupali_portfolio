@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/krupali_portfolio/static/css/main.2ef65e16.css",
-    "main.js": "/krupali_portfolio/static/js/main.33558bc4.js",
+    "main.css": "/krupali_portfolio/static/css/main.28d77b89.css",
+    "main.js": "/krupali_portfolio/static/js/main.6f92a6ae.js",
     "static/js/787.fc421448.chunk.js": "/krupali_portfolio/static/js/787.fc421448.chunk.js",
     "static/media/Profile.JPG": "/krupali_portfolio/static/media/Profile.75cd252dfc68002c30cb.JPG",
     "static/media/KitchenAroundYou.PNG": "/krupali_portfolio/static/media/KitchenAroundYou.7d61c2eb30146c1245b5.PNG",
@@ -11,13 +11,14 @@
     "static/media/PizzaHunt.PNG": "/krupali_portfolio/static/media/PizzaHunt.ba3cfc23fc4d3c18cf09.PNG",
     "static/media/RunBuddy.JPG": "/krupali_portfolio/static/media/RunBuddy.914af5729e1078237f81.JPG",
     "static/media/NoteTaker.PNG": "/krupali_portfolio/static/media/NoteTaker.6b418318fefa4d9cbfb5.PNG",
+    "static/media/aws-certified-developer-associate.png": "/krupali_portfolio/static/media/aws-certified-developer-associate.ce1c121e1e476f830c79.png",
     "index.html": "/krupali_portfolio/index.html",
-    "main.2ef65e16.css.map": "/krupali_portfolio/static/css/main.2ef65e16.css.map",
-    "main.33558bc4.js.map": "/krupali_portfolio/static/js/main.33558bc4.js.map",
+    "main.28d77b89.css.map": "/krupali_portfolio/static/css/main.28d77b89.css.map",
+    "main.6f92a6ae.js.map": "/krupali_portfolio/static/js/main.6f92a6ae.js.map",
     "787.fc421448.chunk.js.map": "/krupali_portfolio/static/js/787.fc421448.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.2ef65e16.css",
-    "static/js/main.33558bc4.js"
+    "static/css/main.28d77b89.css",
+    "static/js/main.6f92a6ae.js"
   ]
 }
