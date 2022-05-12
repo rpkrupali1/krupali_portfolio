@@ -129,9 +129,9 @@ h3 {
   border-bottom: 0.43rem solid gray;
 }
 
-footer {
+/* footer {
   z-index: 9999;
-}
+} */
 
 .cert-container {
   border: 0.25rem solid gray;

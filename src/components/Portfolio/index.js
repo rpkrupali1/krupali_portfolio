@@ -9,6 +9,13 @@ import RunBuddy from "../../assets/RunBuddy.JPG";
 
 const projects = [
   {
+    name: "Shop Shine",
+    techStack: "Full stack",
+    git: "https://github.com/rpkrupali1/shop-shine",
+    application: "https://serene-sea-72116.herokuapp.com/",
+    image: PhotoPort,
+  },
+  {
     name: "Photo Port",
     techStack: "React",
     git: "https://github.com/rpkrupali1/photo-port",
