@@ -27,13 +27,6 @@ h3 {
   color: var(--charcoal);
 }
 
-.no-list-style,
-.nav-link {
-  list-style: none;
-  color: var(--light-green);
-  text-decoration: none;
-}
-
 .header-image {
   background-image: url(./assets/hero.jpg);
   background-repeat: no-repeat;
@@ -59,6 +52,13 @@ h3 {
   text-decoration: none;
   list-style: none;
   color: var(--light-green);
+}
+
+.no-list-style,
+.nav-link {
+  list-style: none;
+  color: lightgray;
+  text-decoration: none;
 }
 
 .profile-pic {
