@@ -82,7 +82,7 @@ const Resume = () => {
   };
 
   return (
-    <div className="row">
+    <div className="row page-container">
       <div className="header-image col"></div>
       <div className="col-8">
         <div className="text-center my-2">

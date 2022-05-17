@@ -13,8 +13,8 @@ const AboutMe = () => {
   };
 
   return (
-    <div className="row">
-      <div className="header-image col"></div>
+    <div className="row page-container">
+      <div className="header-image col vh-100"></div>
       <div className="col-8">
         <div className="text-center my-2">
           <h2 className="fw-bold">About Me</h2>

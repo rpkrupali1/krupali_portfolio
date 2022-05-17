@@ -57,8 +57,15 @@ h3 {
 .no-list-style,
 .nav-link {
   list-style: none;
-  color: lightgray;
+  color: lightgray !important;
   text-decoration: none;
+}
+.nav-link:hover {
+  color: var(--light-green) !important;
+}
+
+.page-container {
+  margin-bottom: 3.25rem;
 }
 
 .profile-pic {
@@ -129,9 +136,9 @@ h3 {
   border-bottom: 0.43rem solid gray;
 }
 
-/* footer {
+footer {
   z-index: 9999;
-} */
+}
 
 .cert-container {
   border: 0.25rem solid gray;
