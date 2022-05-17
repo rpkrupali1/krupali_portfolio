@@ -37,7 +37,7 @@ const Header = () => {
           </a>
         </Navbar.Brand>
 
-        <Navbar.Toggle aria-controls="basic-navbar-nav">
+        <Navbar.Toggle aria-controls="basic-navbar-nav" className="navbar-toggle">
           <AiOutlineMenu />
         </Navbar.Toggle>
 

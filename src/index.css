@@ -46,6 +46,9 @@ h3 {
 .navbar-brand {
   font-size: 100px;
 }
+.navbar-toggle {
+  color: lightgray !important;
+}
 
 .nav-elements {
   font-size: 20px;
