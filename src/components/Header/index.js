@@ -27,14 +27,13 @@ const Header = () => {
 
   return (
     <header className="">
-      {/* <div className="header-image"></div> */}
       <Navbar className="navbar fixed-top navbar-expand-md" expand="lg">
         <Navbar.Brand>
-          <a className="navbar-brand" href="/">
+          <div className="navbar-brand" href="/">
             <span className="h1 fw-bold mx-4 no-list-style">
               Krupali Pilgulwar
             </span>
-          </a>
+          </div>
         </Navbar.Brand>
 
         <Navbar.Toggle aria-controls="basic-navbar-nav" className="navbar-toggle">

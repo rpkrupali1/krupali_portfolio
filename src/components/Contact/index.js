@@ -52,7 +52,7 @@ const Contact = () => {
   };
 
   return (
-    <div className="mb-3 row">
+    <div className="mb-3 row page-container">
       <div className="header-image col"></div>
       <div className="col-8">
         <div className="text-center my-2">
