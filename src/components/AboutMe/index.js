@@ -28,41 +28,36 @@ const AboutMe = () => {
         </div>
         <div className="container text-left">
           <p>
-            I am a mission-driven Full stack web developer leveraging a
-            background in Enterprise Quality Architect with a passion for
-            learning new things, innovation, collaboration, and implementation.
-            Recently earned a certificate in full stack development from MSU
-            University with newly developed skills in JavaScript, CSS, React.js
-            MERN and responsive web design.
+            Enterprise Quality Architect at Rocket with 18+ years of experience
+            in quality engineering, full-stack development, and team leadership.
+            Currently building AI-powered enterprise applications using large
+            language models (LLMs) through AWS Bedrock and Agentic AI, with
+            tools like GitHub Copilot, Claude Code, and Cline.
           </p>
 
           <p>
-            AWS Developer Associate Certified and over 14+ years of diversified
-            experience in analysis, design, development, and management of
-            manual/automated tests. Expertise in improving quality across
-            organizations by collaborating with delivery teams and implementing
-            overall quality standards, best practices, and continuous
-            improvement by designing and implementing automation frameworks from
-            scratch and helping organizations for cost savings.
+            Built Quality Intelligence (QI) — a platform that provides
+            real-time, automated quality scoring across 8,000+ applications.
+            Also built an AI-powered API Test Generator, OpenAPI Doc Generator,
+            and multiple microservices deployed on Kubernetes.
           </p>
 
           <p>
-            Excellent client-facing communication skills and has led and managed
-            teams of 25-30 resources.
+            AWS Certified Developer with hands-on experience across NestJS,
+            GraphQL, PostgreSQL, Kafka, TypeScript, React, Angular, and
+            cloud-native infrastructure (AWS EKS, Terraform, Docker).
           </p>
 
           <p>
-            I have always sought out opportunities and challenges that are
-            meaningful to me. Although my professional path has taken many
-            twists and turns - from manual testing to full stack development. I
-            have never stopped engaging in my passion to help others and solve
-            problems.
+            Experienced people manager — led teams of 30+ across onshore and
+            offshore. Delivered demos and training to audiences of up to 400
+            engineers. Presented and hosted the Testing Minds Conference.
           </p>
 
           <p>
-            As a web developer and quality architect, I enjoy using my obsessive
-            attention to detail, my unequivocal love for making things, and my
-            solution-driven work ethic to make a difference.
+            Currently pursuing a Post Graduate Program in AI and Machine
+            Learning from Purdue University (in collaboration with IBM) covering
+            deep learning, NLP, computer vision, and generative AI.
           </p>
         </div>
         <div className="text-center">
@@ -74,6 +69,14 @@ const AboutMe = () => {
               <button className="button m-4 p-2" onClick={saveFile}>
                 Download My Certificate
               </button>
+            </div>
+            <div className="col-12 col-sm-5 container cert-container">
+              <p>
+                <span className="fw-bold">
+                  Post Graduate Program in AI & Machine Learning{" "}
+                </span>
+                Purdue University, in collaboration with IBM (In Progress)
+              </p>
             </div>
             <div className="col-12 col-sm-5 container cert-container">
               <p>

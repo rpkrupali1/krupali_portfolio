@@ -1,86 +1,78 @@
 import React from "react";
-import fileSaver from "file-saver";
 
 const skills = [
   {
+    name: "AI & Agentic AI",
+    technologies:
+      "AWS Bedrock, GitHub Copilot, Claude Code, Cline, Agentic AI, MCP (Model Context Protocol), Generative AI",
+  },
+  {
+    name: "Languages",
+    technologies:
+      "TypeScript, JavaScript (ES6+), C#, Java, Python, HTML5, CSS3, SQL, GraphQL",
+  },
+  {
     name: "Frontend",
     technologies:
-      "HTML5, CSS, JQuery, Javascript, Bootstrap, React, Responsive design, Redux",
+      "Angular 17, React, Redux, Tailwind CSS, Bootstrap, Responsive Design",
   },
   {
-    name: "Backend",
+    name: "Backend & APIs",
     technologies:
-      "NodeJS, C#, Java, API, Express, ReactJS, Handlebars, Webpack, JavaScript ES6+, TypeScript",
+      "NestJS, Node.js, Express, .NET/xUnit/NUnit, REST, GraphQL, Apollo, Fastify",
   },
   {
-    name: "Database",
-    technologies: "MySQL, MongoDB, DynamoDb, GraphQL",
+    name: "Event Streaming",
+    technologies: "Apache Kafka (SASL), Event-driven Architecture",
   },
   {
-    name: "CRM",
-    technologies: "Salesforce",
+    name: "Databases",
+    technologies: "PostgreSQL, MySQL, MongoDB, DynamoDB, TypeORM",
   },
   {
-    name: "CICD",
+    name: "Test Automation",
     technologies:
-      "CircleCI, AWS, AzureDevops/ADS/TFS, Jenkins, Github, Bitbucket",
+      "Playwright, Cypress, Selenium, CodeceptJs, Provar, Copado, K6, JMeter, Stryker (Mutation Testing), Visual Regression Testing",
   },
   {
-    name: "Deployment",
-    technologies: "Heroku, AWS, Github pages",
+    name: "Test Frameworks",
+    technologies: "TestNG, JUnit, NUnit, xUnit, Cucumber, SpecFlow, Vitest, Jest",
   },
   {
-    name: "Service Virtualization",
-    technologies: "Mountebank",
-  },
-  {
-    name: "Code Quality/Security/Coverage",
-    technologies: "AppSpider, Snyk, SonarQube, Linting",
-  },
-  {
-    name: "Monitoring / Alerting/ Observability",
-    technologies: "Dynatrace, AlertSite, Grafana",
-  },
-  {
-    name: "Orchestration",
-    technologies: "Docker, Kubernetes, EKS, Terraform, Rancher",
-  },
-  {
-    name: "Test Automation Tools",
+    name: "API & Contract Testing",
     technologies:
-      "Selenium, Cypress, CodeceptJs, Provar, Copado, Protractor, QTP/UFT, JMeter, K6",
+      "Postman, Insomnia, SoapUI, RestSharp, Rest Assured, Newman, Contract Testing",
   },
   {
-    name: "Test Framework",
-    technologies: "TestNG, Junit, NUnit, xUnit, Cucumber, Specflow",
-  },
-  {
-    name: "Web Service Testing",
-    technologies: "SoapUI, Postman, RestSharp, Rest Assured",
-  },
-  {
-    name: "Test Management",
-    technologies: "MTM, Zephyr, X-ray, ADS, Test Rail",
-  },
-  {
-    name: "Defect Tracking",
-    technologies: "Bugzilla, Team Foundation Server, Jira",
-  },
-  {
-    name: "Platforms",
+    name: "CI/CD & DevOps",
     technologies:
-      "C#, Java, JavaScript, Json, Ajax, VBScript, Angular, HTML, Python, XML, Groovy",
+      "GitHub Actions, CircleCI, Azure DevOps, Jenkins, Docker, Kubernetes, EKS, Helm, Terraform",
+  },
+  {
+    name: "Cloud & Infrastructure",
+    technologies:
+      "AWS (Bedrock, EKS, DynamoDB), Heroku, SauceLabs, BrowserStack, Rancher",
+  },
+  {
+    name: "Code Quality & Security",
+    technologies: "SonarQube, Snyk, AppSpider, Linting, Code Coverage",
+  },
+  {
+    name: "Observability & Reporting",
+    technologies: "ReportPortal, Dynatrace, Grafana, Splunk, AlertSite",
+  },
+  {
+    name: "CRM & Platforms",
+    technologies: "Salesforce, ServiceNow",
+  },
+  {
+    name: "Tools & Management",
+    technologies:
+      "Jira, ADO, X-ray, Zephyr, Test Rail, Confluence, Git, Bitbucket",
   },
 ];
 
 const Resume = () => {
-  const saveFile = () => {
-    fileSaver.saveAs(
-      process.env.PUBLIC_URL + "/Krupali_Pilgulwar.pdf",
-      "KrupaliPilgulwar.pdf"
-    );
-  };
-
   return (
     <div className="row page-container">
       <div className="header-image col"></div>
@@ -90,9 +82,6 @@ const Resume = () => {
         </div>
         <div className="container">
           <div className="text-center my-2">
-            <button className="button h3 m-4 p-4" onClick={saveFile}>
-              Download My Resume
-            </button>
           </div>
           <div>
             <h3 className="text-center fw-bold mb-4">Technical Skills</h3>
