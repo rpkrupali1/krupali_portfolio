@@ -5,7 +5,7 @@ import Portfolio from "../Portfolio";
 import Contact from "../Contact";
 import Resume from "../Resume";
 import { AiOutlineMenu } from "react-icons/ai";
-import { Nav, Navbar } from "react-bootstrap";
+import { Navbar } from "react-bootstrap";
 
 const Header = () => {
   const [currentPage, setCurrentPage] = useState("AboutMe");
